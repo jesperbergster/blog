@@ -1,0 +1,18 @@
+# Site settings
+title: Jesper Berg
+email: jesperbergster@gmail.com
+description: "Jesper Berg's webpage, is about creating great user experience on the web, etc.."  
+baseurl: "/blog" 
+url: "http://jesperbergster.github.io/blog" 
+tagline: "Creating great user experience"
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+paginate: 4
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
+
+# Gems
+gems: [jekyll-paginate]
